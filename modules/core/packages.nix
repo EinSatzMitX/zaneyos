@@ -23,14 +23,18 @@
   environment.systemPackages = with pkgs; [
     amfora # Fancy Terminal Browser For Gemini Protocol
     appimage-run # Needed For AppImage Support
+    aseprite # Pixelart editor
     brave # Brave Browser
+    btop # System Task Manager
     brightnessctl # For Screen Brightness Control
+    cbonsai # Bonsai tree generator in terminal
     cliphist # Clipboard manager using rofi menu
     cmatrix # Matrix Movie Effect In Terminal
     cowsay # Great Fun Terminal Program
     docker-compose # Allows Controlling Docker From A Single File
     duf # Utility For Viewing Disk Usage In Terminal
     eza # Beautiful ls Replacement
+    fastfetch # System info
     ffmpeg # Terminal Video / Audio Editing
     file-roller # Archive Manager
     gedit # Simple Graphical Text Editor
@@ -51,18 +55,23 @@
     nixfmt-rfc-style # Nix Formatter
     nwg-displays #configure monitor configs via GUI
     onefetch #provides zsaneyos build info on current system
+    obsidian # Markdown Document Editor
     pavucontrol # For Editing Audio Levels & Devices
     pciutils # Collection Of Tools For Inspecting PCI Devices
     picard # For Changing Music Metadata & Getting Cover Art
     pkg-config # Wrapper Script For Allowing Packages To Get Info On Others
     playerctl # Allows Changing Media Volume Through Scripts
+    prismlauncher # Minecraft Launcher
     rhythmbox
     ripgrep # Improved Grep
     socat # Needed For Screenshots
+    spotify # Spotify
     unrar # Tool For Handling .rar Files
     unzip # Tool For Handling .zip Files
     usbutils # Good Tools For USB Devices
     v4l-utils # Used For Things Like OBS Virtual Camera
+    vesktop # Discord client
+    vscode # Alternative code editor to nvim
     wget # Tool For Fetching Files With Links
     ytmdl # Tool For Downloading Audio From YouTube
   ];
