@@ -7,13 +7,13 @@
 in {
   wayland.windowManager.hyprland.settings = {
     bind = [
-      "$modifier,Return,exec,${terminal}"
+      "$SUPER,Return,exec,${terminal}"
       "$modifier,K,exec,list-keybinds"
       "$modifier,SPACE,exec,rofi-launcher"
       # "$modifier SHIFT,W,exec,web-search"
       "$modifier ALT,W,exec,wallsetter"
       "$modifier SHIFT,N,exec,swaync-client -rs"
-      "$modifier,W,exec,${browser}"
+      # "$modifier,W,exec,${browser}"
       "$modifier,Y,exec,kitty -e yazi"
       "$modifier,E,exec,emopicker9000"
       "$modifier,S,exec,screenshootin"
@@ -22,13 +22,14 @@ in {
       "$modifier,C,exec,hyprpicker -a"
       "$modifier,G,exec,gimp"
       "$modifier,T,exec,pypr toggle term"
-      "$modifier,M,exec,pavucontrol"
+      # "$modifier,M,exec,pavucontrol"
+      "$modifier,M,exec,sleep 0.1 && wlogout"
       "$modifier,Q,killactive,"
       "$modifier,P,pseudo,"
-      "$modifier,V,exec, cliphist list | rofi -dmenu | cliphist decode | wl-copy"
+      # "$modifier,V,exec, cliphist list | rofi -dmenu | cliphist decode | wl-copy"
       "$modifier SHIFT,I,togglesplit,"
       "$modifier,F,fullscreen,"
-      "$modifier SHIFT,F,togglefloating,"
+      "$modifier ,V,togglefloating,"
       "$modifier ALT,F,workspaceopt, allfloat"
       "$modifier SHIFT,C,exit,"
       "$modifier SHIFT,left,movewindow,l"
@@ -97,6 +98,11 @@ in {
     bindm = [
       "$modifier, mouse:272, movewindow"
       "$modifier, mouse:273, resizewindow"
+    ];
+
+    unbind = [
+      "ALT,SPACE"
+      "ALT,Return"
     ];
   };
 }

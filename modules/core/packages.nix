@@ -37,8 +37,10 @@
     fastfetch # System info
     ffmpeg # Terminal Video / Audio Editing
     file-roller # Archive Manager
+    gcc
     gedit # Simple Graphical Text Editor
     gimp # Great Photo Editor
+    glibc
     glxinfo #needed for inxi diag util
     greetd.tuigreet # The Login Manager (Sometimes Referred To As Display Manager)
     htop # Simple Terminal Based System Monitor
@@ -52,6 +54,7 @@
     lshw # Detailed Hardware Information
     mpv # Incredible Video Player
     ncdu # Disk Usage Analyzer With Ncurses Interface
+    ncspot # Spotify Terminal Client
     nixfmt-rfc-style # Nix Formatter
     nwg-displays #configure monitor configs via GUI
     onefetch #provides zsaneyos build info on current system
@@ -60,12 +63,14 @@
     pciutils # Collection Of Tools For Inspecting PCI Devices
     picard # For Changing Music Metadata & Getting Cover Art
     pkg-config # Wrapper Script For Allowing Packages To Get Info On Others
+
     playerctl # Allows Changing Media Volume Through Scripts
     prismlauncher # Minecraft Launcher
     rhythmbox
     ripgrep # Improved Grep
+    rust-analyzer
+    rustup
     socat # Needed For Screenshots
-    spotify # Spotify
     unrar # Tool For Handling .rar Files
     unzip # Tool For Handling .zip Files
     usbutils # Good Tools For USB Devices
