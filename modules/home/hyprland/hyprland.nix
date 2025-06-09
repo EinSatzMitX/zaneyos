@@ -69,7 +69,8 @@ in {
         repeat_delay = 300;
         follow_mouse = 1;
         float_switch_override_focus = 0;
-        sensitivity = 0;
+        # sensitivity = 0;
+        sensitivity = 0.5;
         touchpad = {
           natural_scroll = true;
           disable_while_typing = true;

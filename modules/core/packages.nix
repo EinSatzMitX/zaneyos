@@ -66,6 +66,7 @@
 
     playerctl # Allows Changing Media Volume Through Scripts
     prismlauncher # Minecraft Launcher
+    r2modman
     rhythmbox
     ripgrep # Improved Grep
     rust-analyzer
