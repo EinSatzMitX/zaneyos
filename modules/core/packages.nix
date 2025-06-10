@@ -52,6 +52,7 @@
     lm_sensors # Used For Getting Hardware Temps
     lolcat # Add Colors To Your Terminal Command Output
     lshw # Detailed Hardware Information
+    modrinth-app # Minecraft Modded Launcher
     mpv # Incredible Video Player
     ncdu # Disk Usage Analyzer With Ncurses Interface
     ncspot # Spotify Terminal Client
