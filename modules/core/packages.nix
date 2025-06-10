@@ -37,9 +37,10 @@
     fastfetch # System info
     ffmpeg # Terminal Video / Audio Editing
     file-roller # Archive Manager
-    gcc
+    gcc # If you don't know what this is, go fuck yourself
     gedit # Simple Graphical Text Editor
     gimp # Great Photo Editor
+    gitui # Git UI terminal program
     glibc
     glxinfo #needed for inxi diag util
     greetd.tuigreet # The Login Manager (Sometimes Referred To As Display Manager)
@@ -60,6 +61,7 @@
     nwg-displays #configure monitor configs via GUI
     onefetch #provides zsaneyos build info on current system
     obsidian # Markdown Document Editor
+    obs-studio # Video recording software
     pavucontrol # For Editing Audio Levels & Devices
     pciutils # Collection Of Tools For Inspecting PCI Devices
     picard # For Changing Music Metadata & Getting Cover Art
