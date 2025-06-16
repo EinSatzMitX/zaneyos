@@ -43,6 +43,7 @@
     gitui # Git UI terminal program
     glibc
     glxinfo #needed for inxi diag util
+    godot # Open source game engine
     greetd.tuigreet # The Login Manager (Sometimes Referred To As Display Manager)
     htop # Simple Terminal Based System Monitor
     hyprpicker # Color Picker
