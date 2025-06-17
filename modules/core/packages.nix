@@ -73,6 +73,7 @@
     r2modman
     rhythmbox
     ripgrep # Improved Grep
+    inputs.nix-gaming.packages.${pkgs.system}.rocket-league # Rocket League via nix-gaming
     rust-analyzer
     rustup
     socat # Needed For Screenshots
