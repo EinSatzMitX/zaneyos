@@ -20,6 +20,7 @@ in {
     ./hyprland
     ./kitty.nix
     ./lazygit.nix
+    # ./legendary.nix
     ./nvf.nix
     ./rofi
     ./qt.nix

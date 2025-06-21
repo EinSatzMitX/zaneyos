@@ -133,15 +133,15 @@
         zig.enable = true;
         python.enable = true;
         markdown.enable = true;
-        ts = {
-          enable = true;
-          lsp.enable = true;
-          format.type = "prettierd";
-          extensions.ts-error-translator.enable = true;
-        };
+        # ts = {
+        #   enable = true;
+        #   lsp.enable = true;
+        #   format.type = "prettierd";
+        #   extensions.ts-error-translator.enable = true;
+        # };
         html.enable = true;
         lua.enable = true;
-        css.enable = true;
+        # css.enable = true;
         typst.enable = true;
         rust = {
           enable = true;
@@ -187,7 +187,7 @@
       utility = {
         preview.markdownPreview.enable = true;
         ccc.enable = false;
-        vim-wakatime.enable = false;
+        vim-wakatime.enable = true;
         icon-picker.enable = true;
         surround.enable = true;
         diffview-nvim.enable = true;

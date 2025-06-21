@@ -32,4 +32,7 @@ in {
   };
   console.keyMap = "${consoleKeyMap}";
   system.stateVersion = "23.11"; # Do not change!
+  users.users.bobo = {
+    extraGroups = ["openrazer"];
+  };
 }

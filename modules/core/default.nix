@@ -22,7 +22,5 @@
     ./virtualisation.nix
     ./xserver.nix
     inputs.stylix.nixosModules.stylix
-
-    ./quickshell.nix
   ];
 }

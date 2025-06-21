@@ -40,4 +40,5 @@ in {
     ignoreShellProgramCheck = true;
   };
   nix.settings.allowed-users = ["${username}"];
+  nix.settings.max-jobs = 1;
 }
