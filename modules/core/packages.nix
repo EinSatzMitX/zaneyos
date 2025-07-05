@@ -25,6 +25,7 @@
       amfora # Fancy Terminal Browser For Gemini Protocol
       appimage-run # Needed For AppImage Support
       aseprite # Pixelart editor
+      blender # 3D Modeling Software
       brave # Brave Browser
       btop # System Task Manager
       brightnessctl # For Screen Brightness Control
@@ -60,7 +61,6 @@
       modrinth-app # Minecraft Modded Launcher
       mpv # Incredible Video Player
       ncdu # Disk Usage Analyzer With Ncurses Interface
-      ncspot # Spotify Terminal Client
       nixfmt-rfc-style # Nix Formatter
       nwg-displays #configure monitor configs via GUI
       onefetch #provides zsaneyos build info on current system
@@ -75,12 +75,15 @@
       playerctl # Allows Changing Media Volume Through Scripts
       polychromatic # For configuring razer devices
       prismlauncher # Minecraft Launcher
-      r2modman
+      r2modman # Mod manager for Steam games
       rhythmbox
       ripgrep # Improved Grep
       rust-analyzer
       rustup
+      satisfactorymodmanager # Mod manager for Satisfactory
       socat # Needed For Screenshots
+      spotify-player # Spotify TUI application
+      tokei # Utility or Counting lines of code
       unrar # Tool For Handling .rar Files
       unzip # Tool For Handling .zip Files
       usbutils # Good Tools For USB Devices

@@ -30,8 +30,8 @@ in {
       source = ../../../wallpapers;
       recursive = true;
     };
-    ".face.icon".source = ./face.jpg;
-    ".config/face.jpg".source = ./face.jpg;
+    ".face.icon".source = ./gruvbox-dark-rainbow-nixos.png;
+    ".config/gruvbox-dark-rainbow-nixos.png".source = ./gruvbox-dark-rainbow-nixos.png;
   };
   wayland.windowManager.hyprland = {
     enable = true;
