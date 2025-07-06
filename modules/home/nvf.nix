@@ -1,9 +1,20 @@
 {
   inputs,
   config,
+  pkgs,
   ...
 }: {
   imports = [inputs.nvf.homeManagerModules.default];
+
+  # config.vim.lazy.plugins = {
+  #   presence.nvvim = {
+  #     package = presence-nvim;
+  #
+  #     setupModule = "presence";
+  #     setupOpts = {
+  #     };
+  #   };
+  # };
 
   programs.nvf = {
     enable = true;
@@ -106,7 +117,17 @@
       ];
 
       telescope.enable = true;
-
+      extraPlugins = {
+        presence = {
+          package = pkgs.vimPlugins.presence-nvim;
+          setup = ''
+            require("presence").setup {
+              auto_update = true,
+              neovim_image_text = "The One True Text Editor",
+            }
+          '';
+        };
+      };
       spellcheck = {
         enable = true;
         languages = ["en"];
