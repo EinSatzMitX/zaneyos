@@ -39,6 +39,7 @@
       fastfetch # System info
       ffmpeg # Terminal Video / Audio Editing
       file-roller # Archive Manager
+      flatpak
       gcc # If you don't know what this is, go fuck yourself
       gedit # Simple Graphical Text Editor
       gimp # Great Photo Editor

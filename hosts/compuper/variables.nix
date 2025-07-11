@@ -28,7 +28,7 @@
   printEnable = false;
 
   # Set Stylix Image
-  stylixImage = ../../wallpapers/ign-waifu.png;
+  stylixImage = ../../wallpapers/manga.png;
 
   # Set Waybar
   #  Available Options:
