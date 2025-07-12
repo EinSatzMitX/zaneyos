@@ -83,7 +83,9 @@
       rustup
       satisfactorymodmanager # Mod manager for Satisfactory
       socat # Needed For Screenshots
+      solaar # For configuring LogiTech devices
       spotify-player # Spotify TUI application
+      st # Simple terminal for testing cli and tui applications
       tokei # Utility or Counting lines of code
       unrar # Tool For Handling .rar Files
       unzip # Tool For Handling .zip Files

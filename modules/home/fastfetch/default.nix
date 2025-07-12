@@ -11,11 +11,26 @@
         separator = " ➜  ";
       };
 
+      # logo = {
+      #   source = ./nixos.png;
+      #   type = "kitty-direct";
+      #   height = 10;
+      #   width = 20;
+      #   padding = {
+      #     top = 2;
+      #     left = 2;
+      #   };
+      # };
+
       logo = {
-        source = ./nixos.png;
-        type = "kitty-direct";
-        height = 10;
-        width = 20;
+        # Treat the source as raw text, no color placeholders
+        type = "data-raw";
+        source = ''
+            ／l、
+          （ﾟ､ ｡ ７
+            l  ~ヽ
+            じしf_,)ノ
+        '';
         padding = {
           top = 2;
           left = 2;
@@ -55,26 +70,26 @@
           key = " ├ 󰉼 ";
           keyColor = "32";
         }
-        {
-          type = "icons";
-          key = " ├ 󰀻 ";
-          keyColor = "32";
-        }
-        {
-          type = "cursor";
-          key = " ├  ";
-          keyColor = "32";
-        }
+        # {
+        #   type = "icons";
+        #   key = " ├ 󰀻 ";
+        #   keyColor = "32";
+        # }
+        # {
+        #   type = "cursor";
+        #   key = " ├  ";
+        #   keyColor = "32";
+        # }
         {
           type = "terminal";
           key = " ├  ";
           keyColor = "32";
         }
-        {
-          type = "terminalfont";
-          key = " └  ";
-          keyColor = "32";
-        }
+        # {
+        #   type = "terminalfont";
+        #   key = " └  ";
+        #   keyColor = "32";
+        # }
         "break"
         {
           type = "host";
@@ -104,21 +119,21 @@
           key = " ├ 󰋊 ";
           keyColor = "33";
         }
-        {
-          type = "monitor";
-          key = " ├  ";
-          keyColor = "33";
-        }
-        {
-          type = "player";
-          key = " ├ 󰥠 ";
-          keyColor = "33";
-        }
-        {
-          type = "media";
-          key = " └ 󰝚 ";
-          keyColor = "33";
-        }
+        # {
+        #   type = "monitor";
+        #   key = " ├  ";
+        #   keyColor = "33";
+        # }
+        # {
+        #   type = "player";
+        #   key = " ├ 󰥠 ";
+        #   keyColor = "33";
+        # }
+        # {
+        #   type = "media";
+        #   key = " └ 󰝚 ";
+        #   keyColor = "33";
+        # }
         "break"
         {
           type = "uptime";
