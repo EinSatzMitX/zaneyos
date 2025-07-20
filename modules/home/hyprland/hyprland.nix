@@ -168,16 +168,16 @@ in {
     };
 
     extraConfig = "
-  # 1. DP-1 (Asus VG278) links, 144 Hz exakt
-  monitor=DP-1,1920x1080@144.001007,0x0,1
+      # 1. DP-1 (Asus VG278) links, 144 Hz exakt
+      monitor=DP-1,1920x1080@144.001007,0x0,1
 
-  # 2. DP-2 (Iiyama PL2492H) rechts, 60 Hz
-  monitor=DP-2,1920x1080@60.000000,1920x0,1
+      # 2. DP-2 (Iiyama PL2492H) rechts, 60 Hz
+      monitor=DP-2,1920x1080@74.973000,1920x0,1
 
-  ${extraMonitorSettings}
-      # To enable blur on waybar uncomment the line below
-      # Thanks to SchotjeChrisman
-      #layerrule = blur,waybar
+      ${extraMonitorSettings}
+        # To enable blur on waybar uncomment the line below
+        # Thanks to SchotjeChrisman
+        #layerrule = blur,waybar
     ";
   };
 }

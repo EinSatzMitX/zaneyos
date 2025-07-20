@@ -61,6 +61,7 @@
       lshw # Detailed Hardware Information
       modrinth-app # Minecraft Modded Launcher
       mpv # Incredible Video Player
+      nautilus # GUI File manager, for drag&drop windows
       ncdu # Disk Usage Analyzer With Ncurses Interface
       nixfmt-rfc-style # Nix Formatter
       nwg-displays #configure monitor configs via GUI
@@ -82,6 +83,7 @@
       rust-analyzer
       rustup
       satisfactorymodmanager # Mod manager for Satisfactory
+      scarab # Hollow Knight mod manager
       socat # Needed For Screenshots
       solaar # For configuring LogiTech devices
       spotify-player # Spotify TUI application
@@ -92,8 +94,10 @@
       usbutils # Good Tools For USB Devices
       v4l-utils # Used For Things Like OBS Virtual Camera
       vesktop # Discord client
+      virtualbox # VM for occasionally testing own code
       vscode # Alternative code editor to nvim
       wget # Tool For Fetching Files With Links
+      wlr-randr # Tool for getting display information
       ytmdl # Tool For Downloading Audio From YouTube
     ]
     ++ (inputs.nix-gaming.lib.legendaryBuilder pkgs
