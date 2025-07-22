@@ -22,7 +22,6 @@
 
   environment.systemPackages = with pkgs;
     [
-      amfora # Fancy Terminal Browser For Gemini Protocol
       appimage-run # Needed For AppImage Support
       aseprite # Pixelart editor
       blender # 3D Modeling Software
@@ -59,7 +58,6 @@
       lm_sensors # Used For Getting Hardware Temps
       lolcat # Add Colors To Your Terminal Command Output
       lshw # Detailed Hardware Information
-      modrinth-app # Minecraft Modded Launcher
       mpv # Incredible Video Player
       nautilus # GUI File manager, for drag&drop windows
       ncdu # Disk Usage Analyzer With Ncurses Interface
