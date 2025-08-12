@@ -1,5 +1,6 @@
 {inputs, ...}: {
   imports = [
+    ./bongocat.nix
     ./boot.nix
     ./flatpak.nix
     ./fonts.nix

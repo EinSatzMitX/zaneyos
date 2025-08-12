@@ -12,11 +12,13 @@
     nvf.url = "github:notashelf/nvf";
     stylix.url = "github:danth/stylix/release-25.05";
     nix-gaming.url = "github:fufexan/nix-gaming";
+    bongocat.url = "github:saatvik333/wayland-bongocat";
   };
 
   outputs = {
     # self,
     nixpkgs,
+    bongocat,
     ...
   } @ inputs: let
     system = "x86_64-linux";

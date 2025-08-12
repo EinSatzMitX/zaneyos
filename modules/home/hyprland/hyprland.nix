@@ -59,6 +59,10 @@ in {
         "sleep 1.5 && swww img ${stylixImage}"
       ];
 
+      exec = [
+        "cd $HOME/zaneyos/programs && nohup ./bongocat >/dev/null 2>&1 &"
+      ];
+
       input = {
         kb_layout = "${keyboardLayout}";
         # kb_options = [

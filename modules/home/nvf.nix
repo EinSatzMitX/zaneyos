@@ -208,7 +208,7 @@
       utility = {
         preview.markdownPreview.enable = true;
         ccc.enable = false;
-        vim-wakatime.enable = true;
+        vim-wakatime.enable = false;
         icon-picker.enable = true;
         surround.enable = true;
         diffview-nvim.enable = true;

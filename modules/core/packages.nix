@@ -56,8 +56,11 @@
       libnotify # For Notifications
       libreoffice # Open-source Microsoft Office, if you want to say so
       lm_sensors # Used For Getting Hardware Temps
+      lmms # DAW software
       lolcat # Add Colors To Your Terminal Command Output
       lshw # Detailed Hardware Information
+      lutris # Game Launcher for EXE files
+      manim # Python lib/program to create math animations
       mpv # Incredible Video Player
       nautilus # GUI File manager, for drag&drop windows
       ncdu # Disk Usage Analyzer With Ncurses Interface
@@ -70,6 +73,7 @@
       pavucontrol # For Editing Audio Levels & Devices
       pciutils # Collection Of Tools For Inspecting PCI Devices
       picard # For Changing Music Metadata & Getting Cover Art
+      pipes-rs # Pipes.sh but in rust
       pkg-config # Wrapper Script For Allowing Packages To Get Info On Others
 
       playerctl # Allows Changing Media Volume Through Scripts
@@ -95,6 +99,7 @@
       virtualbox # VM for occasionally testing own code
       vscode # Alternative code editor to nvim
       wget # Tool For Fetching Files With Links
+      winePackages.stable
       wlr-randr # Tool for getting display information
       ytmdl # Tool For Downloading Audio From YouTube
     ]
