@@ -28,7 +28,7 @@
   printEnable = false;
 
   # Set Stylix Image
-  stylixImage = ../../wallpapers/manga.png;
+  stylixImage = ../../wallpapers/anime_girl_study.jpeg;
 
   # Set Waybar
   #  Available Options:
